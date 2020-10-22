@@ -1,1 +1,8 @@
-# leaf-disease
+# Plant Disease Detection Using Transfer Learning
+And boost the productivity of the farm
+Introduction
+Disease detection in plants plays an important role in agriculture as farmers have often to decide whether the crop they are harvesting is good enough. It is of utmost importance to take this seriously as it can lead to serious problems in plants due to which product quality, quantity or productivity is affected. Plant diseases cause a periodic outbreak of diseases leading to large-scale death which severely affects the economy. Here computer vision algorithms can be used to provide image-based automatic inspection. Manual identification is labor intensive, less accurate and can be done only in small areas at a time. By this method, the plant diseases can be identified at the initial stage itself and the pest and infection control tools can be used to solve pest problems while minimizing risks to people and the environment.
+# Dataset
+A public dataset is provided which contains 54,305 images of diseased and healthy plant leaves collected under controlled conditions. The images cover 14 species of crops, including: apple, 2 blueberry, cherry, grape, orange, peach, pepper, potato, raspberry, soy, squash, strawberry and tomato. It contains images of 17 basic diseases, 4 bacterial diseases, 2 diseases caused by mold, 2 viral diseases and 1 disease caused by a mite. Each class label is a crop-disease pair, and we make an attempt to predict the crop-disease pair given just the image of the plant leaf. Figure 1 shows all the classes present in the PlantVillage dataset.
+# Transfer Learning
+Transfer learning has been highly successful for classification problems. The main advantage in using transfer learning is that instead of starting the learning process from scratch, the model starts from patterns that have been learned when solving a different problem which is similar in nature to the one being solved. 
